@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище DB_A7206A_mydbModelContainer" CdmEntityContainer="DB_A7206A_mydbEntities">
+    <EntitySetMapping Name="app_test">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.app_test">
+        <MappingFragment StoreEntitySet="app_test">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="str" ColumnName="str" />
+          <ScalarProperty Name="number1" ColumnName="number1" />
+          <ScalarProperty Name="number2" ColumnName="number2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="authors">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.authors">
+        <MappingFragment StoreEntitySet="authors">
+          <ScalarProperty Name="au_id" ColumnName="au_id" />
+          <ScalarProperty Name="au_lname" ColumnName="au_lname" />
+          <ScalarProperty Name="au_fname" ColumnName="au_fname" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="zip" ColumnName="zip" />
+          <ScalarProperty Name="contract" ColumnName="contract" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employee">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="minit" ColumnName="minit" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="job_id" ColumnName="job_id" />
+          <ScalarProperty Name="job_lvl" ColumnName="job_lvl" />
+          <ScalarProperty Name="pub_id" ColumnName="pub_id" />
+          <ScalarProperty Name="hire_date" ColumnName="hire_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="img">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.img">
+        <MappingFragment StoreEntitySet="img">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="pict" ColumnName="pict" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="jobs">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.jobs">
+        <MappingFragment StoreEntitySet="jobs">
+          <ScalarProperty Name="job_id" ColumnName="job_id" />
+          <ScalarProperty Name="job_desc" ColumnName="job_desc" />
+          <ScalarProperty Name="min_lvl" ColumnName="min_lvl" />
+          <ScalarProperty Name="max_lvl" ColumnName="max_lvl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pub_info">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.pub_info">
+        <MappingFragment StoreEntitySet="pub_info">
+          <ScalarProperty Name="pub_id" ColumnName="pub_id" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="pr_info" ColumnName="pr_info" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="publishers">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.publishers">
+        <MappingFragment StoreEntitySet="publishers">
+          <ScalarProperty Name="pub_id" ColumnName="pub_id" />
+          <ScalarProperty Name="pub_name" ColumnName="pub_name" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="country" ColumnName="country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sales">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.sales">
+        <MappingFragment StoreEntitySet="sales">
+          <ScalarProperty Name="stor_id" ColumnName="stor_id" />
+          <ScalarProperty Name="ord_num" ColumnName="ord_num" />
+          <ScalarProperty Name="ord_date" ColumnName="ord_date" />
+          <ScalarProperty Name="qty" ColumnName="qty" />
+          <ScalarProperty Name="payterms" ColumnName="payterms" />
+          <ScalarProperty Name="title_id" ColumnName="title_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stores">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.stores">
+        <MappingFragment StoreEntitySet="stores">
+          <ScalarProperty Name="stor_id" ColumnName="stor_id" />
+          <ScalarProperty Name="stor_name" ColumnName="stor_name" />
+          <ScalarProperty Name="stor_address" ColumnName="stor_address" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="zip" ColumnName="zip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="titleauthor">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.titleauthor">
+        <MappingFragment StoreEntitySet="titleauthor">
+          <ScalarProperty Name="au_id" ColumnName="au_id" />
+          <ScalarProperty Name="title_id" ColumnName="title_id" />
+          <ScalarProperty Name="au_ord" ColumnName="au_ord" />
+          <ScalarProperty Name="royaltyper" ColumnName="royaltyper" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="titles">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.titles">
+        <MappingFragment StoreEntitySet="titles">
+          <ScalarProperty Name="title_id" ColumnName="title_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="pub_id" ColumnName="pub_id" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="advance" ColumnName="advance" />
+          <ScalarProperty Name="royalty" ColumnName="royalty" />
+          <ScalarProperty Name="ytd_sales" ColumnName="ytd_sales" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+          <ScalarProperty Name="pubdate" ColumnName="pubdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="authors2">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.authors2">
+        <MappingFragment StoreEntitySet="authors2">
+          <ScalarProperty Name="au_id" ColumnName="au_id" />
+          <ScalarProperty Name="au_fname" ColumnName="au_fname" />
+          <ScalarProperty Name="au_lname" ColumnName="au_lname" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="authors3">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.authors3">
+        <MappingFragment StoreEntitySet="authors3">
+          <ScalarProperty Name="au_fname" ColumnName="au_fname" />
+          <ScalarProperty Name="au_lname" ColumnName="au_lname" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="au_id" ColumnName="au_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="discounts">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.discounts">
+        <MappingFragment StoreEntitySet="discounts">
+          <ScalarProperty Name="discounttype" ColumnName="discounttype" />
+          <ScalarProperty Name="stor_id" ColumnName="stor_id" />
+          <ScalarProperty Name="lowqty" ColumnName="lowqty" />
+          <ScalarProperty Name="highqty" ColumnName="highqty" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="roysched">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.roysched">
+        <MappingFragment StoreEntitySet="roysched">
+          <ScalarProperty Name="title_id" ColumnName="title_id" />
+          <ScalarProperty Name="lorange" ColumnName="lorange" />
+          <ScalarProperty Name="hirange" ColumnName="hirange" />
+          <ScalarProperty Name="royalty" ColumnName="royalty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t1">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.t1">
+        <MappingFragment StoreEntitySet="t1">
+          <ScalarProperty Name="au_fname" ColumnName="au_fname" />
+          <ScalarProperty Name="au_lname" ColumnName="au_lname" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="contract" ColumnName="contract" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="titles2">
+      <EntityTypeMapping TypeName="DB_A7206A_mydbModel.titles2">
+        <MappingFragment StoreEntitySet="titles2">
+          <ScalarProperty Name="au_id" ColumnName="au_id" />
+          <ScalarProperty Name="title_id" ColumnName="title_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="pub_id" ColumnName="pub_id" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="advance" ColumnName="advance" />
+          <ScalarProperty Name="royalty" ColumnName="royalty" />
+          <ScalarProperty Name="ytd_sales" ColumnName="ytd_sales" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+          <ScalarProperty Name="pubdate" ColumnName="pubdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

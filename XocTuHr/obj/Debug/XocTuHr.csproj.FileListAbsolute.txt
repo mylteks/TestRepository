@@ -1,0 +1,7 @@
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\XocTuHr.dll.config
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\XocTuHr.dll
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\XocTuHr.pdb
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\obj\Debug\XocTuHr.csprojAssemblyReference.cache
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\obj\Debug\XocTuHr.csproj.CoreCompileInputs.cache
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\obj\Debug\XocTuHr.dll
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\obj\Debug\XocTuHr.pdb

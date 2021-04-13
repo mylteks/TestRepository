@@ -1,0 +1,13 @@
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\XocTuHr.dll.config
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\XocTuHr.dll
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\XocTuHr.pdb
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\obj\Release\XocTuHr.csprojAssemblyReference.cache
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\obj\Release\XocTuHr.csproj.CoreCompileInputs.cache
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\obj\Release\XocTuHr.dll
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\obj\Release\XocTuHr.pdb
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\EntityFramework.dll
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\EntityFramework.SqlServer.dll
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\EntityFramework.xml
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\EntityFramework.SqlServer.xml
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\bin\ru\EntityFramework.resources.dll
+C:\Users\Setup\Desktop\XocTuHr\XocTuHr\obj\Release\XocTuHr.csproj.CopyComplete

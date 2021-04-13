@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2dab7aadd3a548d18733c390518b3d3f" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.app_test" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.authors" Width="1.5" PointX="6" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.employee" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.img" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.jobs" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.pub_info" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.publishers" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.sales" Width="1.5" PointX="5.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.stores" Width="1.5" PointX="3" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.titleauthor" Width="1.5" PointX="8.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.titles" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.authors2" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.authors3" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.discounts" Width="1.5" PointX="5.25" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.roysched" Width="1.5" PointX="5.25" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.t1" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_A7206A_mydbModel.titles2" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="DB_A7206A_mydbModel.FK__titleauth__au_id__0519C6AF" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A7206A_mydbModel.FK__employee__job_id__1BFD2C07" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A7206A_mydbModel.FK__employee__pub_id__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A7206A_mydbModel.FK__pub_info__pub_id__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A7206A_mydbModel.FK__titles__pub_id__014935CB" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A7206A_mydbModel.FK__sales__stor_id__0AD2A005" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A7206A_mydbModel.FK__sales__title_id__0BC6C43E" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A7206A_mydbModel.FK__discounts__stor___0F975522" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A7206A_mydbModel.FK__titleauth__title__060DEAE8" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_A7206A_mydbModel.FK__roysched__title___0DAF0CB0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
