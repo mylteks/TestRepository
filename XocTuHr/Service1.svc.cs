@@ -25,7 +25,10 @@ namespace XocTuHr
         {
             var t = from j in tmp.authors select j;
         }
-
+        public void push_test()
+        {
+            int mb = 1 + 3;
+        }
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)
